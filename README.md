@@ -1,2 +1,2 @@
 # rsschool-cv
-Resume
+Hi! This is a [link](http://github.com) to my CV.
