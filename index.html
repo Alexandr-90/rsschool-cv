@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+  <title>CV Aleksandr Tarasov</title>
+</head>
+<body id="body">
+	<div class="main-div">
+    <header>
+      <h1 class="page-title">Aleksandr Tarasov</h1>
+    </header>
+    <main>
+      <div class="avatar-container">
+        <img class="avatar" src="img/1.jpg" width="150" height="150" alt="Аватарка">
+      </div>
+      <section>
+        <h3>Contact Info</h3>
+          <p>
+          <ul>
+            <li>
+              <i>github:</i> @Alexandr-90
+            </li>
+            <li>
+              <i>e-mail:</i><a href="mailto:tarasov.alexander.v@gmail.com" target="_blank"> tarasov.alexander.v@gmail.com</a>
+            </li>
+          </ul>
+          <p>
+      </section>
+      <section>
+        <h2 class="line">Junior FrontEnd Developer</h2>
+          <ul>
+            <li>Able to build a Web presence from the ground up -- from concept, navigation, layout and programming to UX and SEO.</li>
+            <li>Skilled at writing well-designed, testable and efficient code using current best practices in Web development.</li>
+            <li>Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.</li>
+          </ul>
+      </section>
+      <section>
+        <h2>Technical Toolbox</h2>
+        <p><b>Web Tools</b>: JavaScript, CSS, HTML, XHTML, XML, C#, Python,  Git.</p>
+        <p><b>Graphic Design</b>: Photoshop, Lightroom, Pixelmator</p>
+      </section>
+      <section>
+    	  <h3>Code example: merging lists in order</h3>
+    	  <pre><code id ="code"> 
+def merge(a, b):
+c = []
+i, j = 0, 0
+while i < len(a) and j < len(b):
+		if a[i] <= b[j]:
+				c.append(a[i])
+				i += 1
+		else:
+				c.append(b[j])
+				j += 1
+while i < len(a):
+		c.append(a[i])
+		i += 1
+while j < len(b):
+		c.append(b[j])
+		j += 1
+return c
+
+lista = list(map(int, input().split()))
+listb = list(map(int, input().split()))
+
+print(*merge(lista, listb))				
+				</pre></code>
+				<h3>Soft Skills</h3>
+				<p><b>Previous job experience</b>: 3 years of team management (8-10 people), huge experience in process optimization, successful teamwork,<br>
+					 quick adaptation to changes and self-learning, documentation, business correspondence in English by mail.</p>
+				<h3>Experience</h3>
+				<p>Made projects as FrontEnd developer in HTML and CSS courses.<br>
+					Currently working on a project with javascript in Frontend courses.</p>
+			</section>
+			<section>
+				<h2>Education</h2>
+				<h3>High Education</h3>
+				<p><i>University:</i> Moscow State Industrial University (MSIU)</p>
+				<p><i>Department:</i> Economics, Management and Information Technology</p>
+				<p><i>Specialization:</i> Organization and technology of information security</p>
+				<h3>Additional Education</h3>
+				<table>
+					<tr>
+						<th>Course</th>
+						<th>Education</th>
+					</tr>
+					<tr>
+						<td>CS50</td>
+						<td>Programming Basics(C#, Python)</td>
+					</tr>
+					<tr>
+						<td>Testing . com</td>
+						<td>QA Basics</td>
+					</tr>
+					<tr>
+						<td>Python for Everyone</td>
+						<td>Python Basics</td>
+					</tr>
+					<tr>
+						<td>Learn HTML</td>
+						<td>HTML Basics</td>
+					</tr>
+					<tr>
+						<td>Learn CSS</td>
+						<td>CSS Basics</td>
+					</tr>
+					<tr>
+						<td>Git</td>
+						<td>Git Basics</td>
+					</tr>
+					<tr>
+						<td>Learn JavaScript</td>
+						<td><i>in progress</i></td>
+					</tr>
+					<tr>
+						<td>Rolling Scopes School</td>
+						<td>in progress</td>
+					</tr>
+				</table>
+			</section>
+			<section>
+				<h2>English</h2>
+				<ul>
+					<li>Studied English in Trinity College, graduated with Advanced level</li>
+					<li>Studied English in Pimsler's corses and Effortless english corse by A. J. Hoge, to improve english speaking skills.</li>
+					<li>Practiced speaking skills while traveling abroad.</li>
+					<li>Business correspondence in English by e-mail with colleagues on previous job.</li>
+				</ul>
+			</section>
+		</main>
+	</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+
+html {
+  border:0;
+  font:inherit;
+  font-size:100%;
+  margin:0;
+  padding:10px;
+  vertical-align:baseline;
+  }
+  html, body {background: #5f5e5e; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+
+  #body {
+    width: 90%;
+    max-width: 1024px;
+    background: #f3f3f3;
+    margin: auto;
+    padding: 30px;
+    border-radius: 1em;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    border-bottom: 3px solid rgb(60, 99, 116);
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: #444;
+  }
+
+  #code {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-left: 3px solid rgb(60, 99, 116);
+    color: rgb(56, 56, 56);
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 1em;
+    max-width: 50%;
+    overflow: auto;
+    padding: 1em 1em;
+    display: block;
+    word-wrap: break-word;
+    border-radius: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-left: 3px solid rgb(60, 99, 116);
+  
+  color: rgb(56, 56, 56);
+  page-break-inside: avoid;
+  line-height: 1;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  overflow: auto;
+  max-width: auto;
+  display: inline-block;
+}
+th {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid lightgray;
+  padding: 10px ;
+}
